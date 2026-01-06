@@ -7,7 +7,7 @@ This project is a static frontend website designed to showcase a food delivery b
 While the core structure is based on the popular "Food Munch" curriculum, I have significantly **refactored the code** and added **custom animations** to enhance the user experience.
 
 ## 🚀 Live Demo
-👉 **[View Live Demo](https://your-username.github.io/your-repo-name)**
+👉 **[View Live Demo](https://foodmunchbyhrs.netlify.app/)**
 
 ## ✨ Key Features
 * **Fully Responsive:** Built with a mobile-first approach using **Bootstrap 4** grid system. Looks perfect on iPhone, iPad, and Desktop.
