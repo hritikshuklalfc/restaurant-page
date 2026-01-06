@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.food-munch-logo {
+  width: 80px;
+  height: 70px;
+}
+
+.nav-link {
+  color: #323f4b !important;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+/* Banner Section */
+.banner-section-bg-container {
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  min-height: 100vh; /* Changed from height to min-height for mobile */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* Buttons with Hover Effects */
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #bfa300;
+  transform: scale(1.05);
+}
+
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.custom-outline-button:hover {
+  background-color: #d0b200;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Why Choose Us Section */
+#whychooseus {
+  background-color: #f9fbfe;
+  padding: 40px 20px;
+}
+
+.sec_heading,
+.wcu-section-heading,
+.menu-section-heading,
+.healthy-food-section-heading,
+.delivery-and-payment-section-heading,
+.thanking-customers-section-heading,
+.follow-us-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.sec_description,
+.wcu-section-description,
+.healthy-food-section-description,
+.delivery-and-payment-section-description,
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border: 1px solid #e5eaf4;
+  border-radius: 16px;
+  transition: transform 0.3s;
+}
+
+.wcu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Menu Section */
+.explore-menu-section {
+  background-color: white;
+}
+
+.menu-item-card {
+  border-radius: 16px;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item-image {
+  border-radius: 16px;
+}
+
+.menu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu-item-link:hover {
+  color: #a89000;
+  text-decoration: none;
+}
+
+/* Healthy Food Section */
+.healthy-food-section {
+  background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+/* Delivery Section */
+.delivery-and-payment-section {
+  background-color: white;
+}
+
+.delivery-and-payment-section-img {
+  width: 270px;
+}
+
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Thanking Section */
+.thanking-customers-section {
+  background-image: radial-gradient(#fff8db, #fae38c);
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.thanking-customers-section-img {
+  width: 100%;
+  max-width: 270px;
+}
+
+.thanking-cutomer-section-model {
+  color: #d0b200;
+  font-weight: 800;
+}
+
+/* Follow Us Section */
+.follow-us-section {
+  background-color: white;
+}
+
+.follow-us-section-heading {
+  text-align: center;
+}
+
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.follow-us-icon-container:hover {
+  background-color: #e9e2c0;
+}
+
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #0d2436;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* =========================================
+   ANIMATION MAGIC - ADD TO BOTTOM OF CSS
+   ========================================= */
+
+/* 1. The Starting State (Hidden) */
+.reveal {
+  position: relative;
+  transform: translateY(50px); /* Push it down 50px */
+  opacity: 0; /* Make it invisible */
+  transition: all 1s ease-out; /* The transition speed */
+}
+
+/* 2. The Active State (Visible) - JS will add this class */
+.reveal.active {
+  transform: translateY(0); /* Move to original position */
+  opacity: 1; /* Make visible */
+}
+
+/* Optional: Staggered delays for cards (so they don't all load at once) */
+/* If you add 'delay-1' or 'delay-2' along with 'reveal' to HTML */
+.reveal.delay-1 {
+  transition-delay: 0.2s;
+}
+.reveal.delay-2 {
+  transition-delay: 0.4s;
+}
+.reveal.delay-3 {
+  transition-delay: 0.6s;
+}
+
+/* 3. Button Pulse Animation (Make them feel alive) */
+@keyframes softPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(208, 178, 0, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(208, 178, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(208, 178, 0, 0);
+  }
+}
+
+.custom-button {
+  /* Add this to your existing .custom-button class */
+  animation: softPulse 2s infinite;
+}
